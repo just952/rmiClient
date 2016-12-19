@@ -1,5 +1,7 @@
 package spring.remoting.rmiClient;
 
+import spring.remoting.data.Result;
+
 public interface Calculation {
-	public int cube(int number);
+	public Result cube(int number);
 }
